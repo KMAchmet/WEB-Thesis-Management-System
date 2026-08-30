@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 260" width="1100" height="260">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2c5f8a"/>
+      <stop offset="100%" stop-color="#5aa9a3"/>
+    </linearGradient>
+  </defs>
+  <rect width="1100" height="260" fill="url(#grad)"/>
+  <g opacity="0.18" fill="#ffffff">
+    <circle cx="120" cy="60" r="70"/>
+    <circle cx="980" cy="200" r="100"/>
+    <circle cx="600" cy="30" r="40"/>
+  </g>
+  <text x="550" y="140" font-family="Segoe UI, Arial" font-size="34" font-weight="700"
+        fill="#ffffff" text-anchor="middle">Πανεπιστήμιο Πατρών</text>
+  <text x="550" y="180" font-family="Segoe UI, Arial" font-size="18"
+        fill="#eaf3f2" text-anchor="middle">Τμήμα Μηχανικών Η/Υ &amp; Πληροφορικής</text>
+</svg>

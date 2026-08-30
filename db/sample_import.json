@@ -1,0 +1,5 @@
+[
+  { "role": "student", "full_name": "Μαρίνα Χατζή", "email": "stud_new1@upnet.gr", "am": "1071011", "address": "Πάτρα", "mobile_phone": "6911111111", "home_phone": "2610111111" },
+  { "role": "student", "full_name": "Λευτέρης Παπανικολάου", "email": "stud_new2@upnet.gr", "am": "1071012", "address": "Πάτρα", "mobile_phone": "6922222222", "home_phone": "2610222222" },
+  { "role": "professor", "full_name": "Καθηγητής Ιωάννης Ρίζος", "email": "prof_new1@upatras.gr", "department": "ΤΜΗΥΠ" }
+]

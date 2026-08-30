@@ -1,0 +1,21 @@
+/* ============================================================
+   student/css/student.css
+   The student front-end must be mobile friendly (per spec) —
+   extra responsive rules on top of the global stylesheet.
+   ============================================================ */
+.container { padding-bottom: 60px; }
+
+.card h3 { color: var(--color-primary); margin-top: 6px; }
+.card h4 { margin-bottom: 6px; color: var(--color-primary-dark); }
+
+input[type="file"] {
+    background: #f8f9fb;
+    padding: 8px;
+}
+
+@media (max-width: 480px) {
+    .site-header h1 { font-size: 1rem; }
+    .login-box { padding: 20px; }
+    .btn { width: 100%; margin-bottom: 8px; text-align: center; }
+    .form-group input, .form-group select { font-size: 16px; } /* avoid iOS zoom */
+}

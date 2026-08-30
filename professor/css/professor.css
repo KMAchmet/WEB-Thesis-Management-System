@@ -1,0 +1,46 @@
+/* ============================================================
+   professor/css/professor.css
+   ============================================================ */
+.dash-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 18px;
+}
+.dash-card {
+    background: #fff;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    padding: 20px;
+    text-align: center;
+    color: var(--color-text);
+    border-top: 4px solid var(--color-primary);
+    transition: transform 0.15s ease;
+}
+.dash-card:hover { transform: translateY(-3px); text-decoration: none; }
+.dash-card h3 { margin: 4px 0 10px; color: var(--color-primary-dark); font-size: 1rem; }
+.dash-number { font-size: 2rem; font-weight: 800; color: var(--color-primary); margin: 0; }
+
+.filter-form { display: flex; gap: 20px; flex-wrap: wrap; margin-bottom: 14px; }
+
+.search-results {
+    border: 1px solid #dfe4e8;
+    border-radius: 6px;
+    max-height: 180px;
+    overflow-y: auto;
+    background: #fff;
+    position: relative;
+    z-index: 5;
+}
+.search-result-item {
+    padding: 8px 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #f0f2f4;
+}
+.search-result-item:hover { background: #eef4f8; }
+
+@media (max-width: 768px) {
+    .dash-grid { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 480px) {
+    .dash-grid { grid-template-columns: 1fr; }
+}
